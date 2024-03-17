@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+.cabecalho {
+  background-color: #0f7db8;
+  padding-bottom: 1%;
+  width: 100%;
+  margin: 0;
+}
+
+.destaque-texto {
+  color: #40a8e2;
+  font-family: "Handel gothic itc w02 bold", "Handel Gothic", sans-serif;
+  font-size: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.texto {
+  color: black;
+  font-family: "Handel gothic itc w02 bold", "Handel Gothic", sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.central {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.formulario {
+  width: 40%;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 5px 0;
+  flex: 1;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"],
+.input-group input[type="email"] {
+  width: 70%;
+  padding: 5px;
+  flex: 1;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 40;
+}
+
+.btn {
+  display: inline-block;
+  width: 70%;
+  margin-top: 15px;
+  padding: 5px 15px;
+  border: 1px #000000;
+  border-radius: 1px;
+  background-color: #789a19;
+  color: #eef2f7;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 50;
+}
+
+::placeholder {
+  color: #066396;
+  font-family: "Handel gothic itc w02 bold", "Handel Gothic", sans-serif;
+  font-size: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+hr {
+  border: #ccc;
+  height: 2%;
+  background-color: #ccc;
+  margin: 20% 0;
+}
+
+.formulario2 {
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+#mensagem {
+  height: 100;
+  padding-bottom: 5%;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.success-message {
+  background-color: #789a19;
+  border: 1px solid #000000;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Handel gothic itc w02 bold", "Handel Gothic", sans-serif;
+  height: 30px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: rgb(167, 42, 42);
+  border: 1px #000000;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Handel gothic itc w02 bold", "Handel Gothic", sans-serif;
+  height: 30px;
+  text-align: center;
+}
